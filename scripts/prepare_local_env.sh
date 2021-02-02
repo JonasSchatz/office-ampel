@@ -4,7 +4,6 @@
 SCRIPTS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $SCRIPTS_DIR
 cd ..
-echo $PWD
 
 # Create the virtual env
 if test -f "venv/bin/activate"; then
@@ -18,4 +17,3 @@ source venv/bin/activate
 
 # Install python packages
 pip3 install -r requirements.txt
-
