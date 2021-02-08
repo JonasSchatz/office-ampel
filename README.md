@@ -10,3 +10,4 @@ The [setup script](scripts/prepare_local_env.sh) creates a virtual environment a
 - Find out the IP Address of your Pi and connect to port 5000, e.g. `192.168.188.60:5000`.
 
 ![](docs/demo.gif)
+![](docs/final.jpg)
